@@ -1,5 +1,3 @@
-// import { isMainThread } from "worker_threads";
-
 self.addEventListener("install", event => {
 	console.log("Install event");
 	event.waitUntil(
@@ -23,4 +21,4 @@ self.addEventListener("fetch", event =>
 );
 
 const cacheName = "cache-v1";
-const toBePrecached = ["/", "index.html", "styles/isMainThread.css"];
+const toBePrecached = ["/", "index.html", "styles/main.css"];
