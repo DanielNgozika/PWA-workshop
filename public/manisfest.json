@@ -1,0 +1,14 @@
+{
+    "name": "DevFest Oko 2019 PWA",
+    "short_name": "DevFest Oko PWA",
+    "icons": [{
+        "src": "yuch.png",
+        "sizes": "512*512",
+        "type": "image/png"
+    }],
+    "start_url": "index.html",
+    "display": "standalone",
+    "orientation": "portait",
+    "background_color": "#4b4b4e",
+    "theme_color": "#4b4b4e"
+}
