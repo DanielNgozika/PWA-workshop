@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: "Muli", Arial, Helvetica, sans-serif;
+	font-size: 46px;
+	text-align: center;
+	margin: auto 0;
+	margin-top: 200px;
+}
+
+h1 span:nth-child(1) {
+	color: blue;
+}
+
+h1 span:nth-child(2) {
+	color: seagreen;
+}
+
+h1 span:nth-child(3) {
+	color: red;
+}
