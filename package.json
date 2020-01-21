@@ -1,22 +1,23 @@
 {
-  "name": "dev_fest_oko",
-  "version": "1.0.0",
-  "description": "DevFest Oko 2019 Progressive Web App codelab",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Progressive",
-    "Web",
-    "App",
-    "Dev",
-    "Fest",
-    "2019"
-  ],
-  "author": "Daniel Ngozika",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "dev_fest_oko",
+	"version": "1.0.0",
+	"description": "DevFest Oko 2019 Progressive Web App codelab",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Progressive",
+		"Web",
+		"App",
+		"Dev",
+		"Fest",
+		"2019"
+	],
+	"author": "Daniel Ngozika",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }
